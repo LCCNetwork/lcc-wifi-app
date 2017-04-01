@@ -1,0 +1,28 @@
+{
+  "name": "LCCWiFiApp",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "standard && jest"
+  },
+  "dependencies": {
+    "firebase": "^3.7.4",
+    "react": "15.4.2",
+    "react-art": "^0.15.1",
+    "react-native": "0.42.3",
+    "react-native-circular-progress": "0.0.8",
+    "react-native-google-signin": "^0.9.0"
+  },
+  "devDependencies": {
+    "babel-jest": "19.0.0",
+    "babel-preset-react-native": "1.9.1",
+    "eslint": "^3.18.0",
+    "jest": "19.0.2",
+    "react-test-renderer": "15.4.2",
+    "standard": "^9.0.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

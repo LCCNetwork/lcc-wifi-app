@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1038104580431",
+    "firebase_url": "https://lcc-wifi.firebaseio.com",
+    "project_id": "lcc-wifi",
+    "storage_bucket": "lcc-wifi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1038104580431:android:6ec6ee1a787c1c97",
+        "android_client_info": {
+          "package_name": "com.lccwifiapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1038104580431-d5oikmtjar9dj3rnhssjedimjte0o80p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lccwifiapp",
+            "certificate_hash": "9b6f75d17d73da790a87f16e368f9ff1c92c1d2a"
+          }
+        },
+        {
+          "client_id": "1038104580431-bakjtdg9bapemb51kif2cdm4fgs4paaf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBU8fD409QR5X3uc6_h6wkge8WM6iRSFeU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1038104580431-bakjtdg9bapemb51kif2cdm4fgs4paaf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
