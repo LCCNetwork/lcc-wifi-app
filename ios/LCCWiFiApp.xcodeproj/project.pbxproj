@@ -5,6 +5,7 @@
 	};
 	objectVersion = 46;
 	objects = {
+
 /* Begin PBXBuildFile section */
 		00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */; };
 		00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302BA1ABCB90400DB3ED1 /* libRCTGeolocation.a */; };
@@ -34,12 +35,27 @@
 		2D02E4C91E0B4AEC006451C7 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3EA31DF850E9000B6D8A /* libReact.a */; };
 		2DCD954D1E0B4F2C00145EB5 /* LCCWiFiAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* LCCWiFiAppTests.m */; };
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
+		63055D141E9171F600897FA1 /* GoogleAppUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63055D0E1E9171F500897FA1 /* GoogleAppUtilities.framework */; };
+		63055D151E9171F600897FA1 /* GoogleAuthUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63055D0F1E9171F500897FA1 /* GoogleAuthUtilities.framework */; };
+		63055D161E9171F600897FA1 /* GoogleNetworkingUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63055D101E9171F600897FA1 /* GoogleNetworkingUtilities.framework */; };
+		63055D171E9171F600897FA1 /* GoogleSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63055D111E9171F600897FA1 /* GoogleSignIn.framework */; };
+		63055D181E9171F600897FA1 /* GoogleSymbolUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63055D121E9171F600897FA1 /* GoogleSymbolUtilities.framework */; };
+		63055D191E9171F600897FA1 /* GoogleUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63055D131E9171F600897FA1 /* GoogleUtilities.framework */; };
+		6344AD7A1E9B095200541E7E /* libART.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6344AD791E9B092200541E7E /* libART.a */; };
+		63B913C71E9146860091F678 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 63B913C61E9146860091F678 /* GoogleService-Info.plist */; };
+		63B913C81E9146860091F678 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 63B913C61E9146860091F678 /* GoogleService-Info.plist */; };
+		63B913C91E9146860091F678 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 63B913C61E9146860091F678 /* GoogleService-Info.plist */; };
+		63B913CA1E9146860091F678 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 63B913C61E9146860091F678 /* GoogleService-Info.plist */; };
+		6414D05DCCFB47ACA96CF17E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 485CC9448D6C4141988A2932 /* SystemConfiguration.framework */; };
+		65BA2FE245368945DC443D04 /* libPods-LCCWiFiApp-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0489DAB22619CE916A6532DC /* libPods-LCCWiFiApp-tvOSTests.a */; };
+		69BF01B04DC9900DEE6FC831 /* libPods-LCCWiFiApp-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9D9116C8CFD2B4F2949309C /* libPods-LCCWiFiApp-tvOS.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
-		16D58E2A17B0499BAA9014F1 /* libRNGoogleSignin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B61B1677DB644188D60F99F /* libRNGoogleSignin.a */; };
-		3A5EC8D9B3D340F8AF4572E6 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 297A6BA88FB44B44A5450847 /* libz.tbd */; };
-		E7DDC600F65A475F993F31A0 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26B61E5BCB6046EF9FE696BA /* SafariServices.framework */; };
-		A73B0A4C6B8744F882DFFA57 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 128E7C14D36D42C3851F77E3 /* SystemConfiguration.framework */; };
-		6E4A7EDEC6E0474E91711AB4 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C48768AF2D6E451898C21FF6 /* AddressBook.framework */; };
+		874DA7F9DC044F2FB7773D5A /* libRNGoogleSignin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 86AB9760366B4746B01696DD /* libRNGoogleSignin.a */; };
+		9990502140DCEDBFD0A5C0A0 /* libPods-LCCWiFiAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C190E5B4EED38BE3088E09D9 /* libPods-LCCWiFiAppTests.a */; };
+		AC4D1031B73348C795DA3CF7 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C72C9E470F04BD4B7EDDFF3 /* SafariServices.framework */; };
+		D39FA859D213FBA076FE998A /* libPods-LCCWiFiApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 349D101A69887BDEE67D1592 /* libPods-LCCWiFiApp.a */; };
+		D8E72F6833E4417F9D9BF10A /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CF75913D8774E25889EFFF1 /* AddressBook.framework */; };
+		FA765211C71846159033FD66 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = ADA55E35B26F4832BD74C43D /* libz.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -218,6 +234,20 @@
 			remoteGlobalIDString = 2D2A28201D9B03D100D4039D;
 			remoteInfo = "RCTAnimation-tvOS";
 		};
+		6344AD781E9B092200541E7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6344AD741E9B092200541E7E /* ART.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0CF68AC11AF0540F00FF9E5C;
+			remoteInfo = ART;
+		};
+		63B913C41E91436A0091F678 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30D3D3DDA5C9429088C7BFCE /* RNGoogleSignin.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9FD355121D3E4A2900D06170;
+			remoteInfo = RNGoogleSignin;
+		};
 		78C398B81ACF4ADC00677621 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */;
@@ -244,6 +274,8 @@
 		00E356EE1AD99517003FC87E /* LCCWiFiAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LCCWiFiAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* LCCWiFiAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCCWiFiAppTests.m; sourceTree = "<group>"; };
+		0489DAB22619CE916A6532DC /* libPods-LCCWiFiApp-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LCCWiFiApp-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07227E92E76F8ACE63CB0B67 /* Pods-LCCWiFiApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LCCWiFiApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-LCCWiFiApp/Pods-LCCWiFiApp.release.xcconfig"; sourceTree = "<group>"; };
 		139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTSettings.xcodeproj; path = "../node_modules/react-native/Libraries/Settings/RCTSettings.xcodeproj"; sourceTree = "<group>"; };
 		139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebSocket.xcodeproj; path = "../node_modules/react-native/Libraries/WebSocket/RCTWebSocket.xcodeproj"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* LCCWiFiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LCCWiFiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -254,17 +286,45 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = LCCWiFiApp/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = LCCWiFiApp/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
+		172F4723CFCF8EA9F6CC4AE8 /* Pods-LCCWiFiAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LCCWiFiAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LCCWiFiAppTests/Pods-LCCWiFiAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* LCCWiFiApp-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LCCWiFiApp-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* LCCWiFiApp-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LCCWiFiApp-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30D3D3DDA5C9429088C7BFCE /* RNGoogleSignin.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNGoogleSignin.xcodeproj; path = "../node_modules/react-native-google-signin/ios/RNGoogleSignin.xcodeproj"; sourceTree = "<group>"; };
+		349D101A69887BDEE67D1592 /* libPods-LCCWiFiApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LCCWiFiApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		485CC9448D6C4141988A2932 /* SystemConfiguration.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
+		63055CDF1E916C6700897FA1 /* Pods */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Pods; sourceTree = "<group>"; };
+		63055CFB1E916DFF00897FA1 /* GoogleAppUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleAppUtilities.framework; path = "../node_modules/react-native-google-signin/ios/GoogleSdk/GoogleAppUtilities.framework"; sourceTree = "<group>"; };
+		63055CFC1E916DFF00897FA1 /* GoogleAuthUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleAuthUtilities.framework; path = "../node_modules/react-native-google-signin/ios/GoogleSdk/GoogleAuthUtilities.framework"; sourceTree = "<group>"; };
+		63055CFD1E916DFF00897FA1 /* GoogleNetworkingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleNetworkingUtilities.framework; path = "../node_modules/react-native-google-signin/ios/GoogleSdk/GoogleNetworkingUtilities.framework"; sourceTree = "<group>"; };
+		63055CFE1E916DFF00897FA1 /* GoogleSignIn.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleSignIn.bundle; path = "../node_modules/react-native-google-signin/ios/GoogleSdk/GoogleSignIn.bundle"; sourceTree = "<group>"; };
+		63055CFF1E916DFF00897FA1 /* GoogleSignIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSignIn.framework; path = "../node_modules/react-native-google-signin/ios/GoogleSdk/GoogleSignIn.framework"; sourceTree = "<group>"; };
+		63055D001E916DFF00897FA1 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = "../node_modules/react-native-google-signin/ios/GoogleSdk/GoogleSymbolUtilities.framework"; sourceTree = "<group>"; };
+		63055D011E916DFF00897FA1 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = "../node_modules/react-native-google-signin/ios/GoogleSdk/GoogleUtilities.framework"; sourceTree = "<group>"; };
+		63055D091E916E2000897FA1 /* GoogleSignIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSignIn.framework; path = Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework; sourceTree = "<group>"; };
+		63055D0C1E9171DD00897FA1 /* Frameworks */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Frameworks; sourceTree = "<group>"; };
+		63055D0E1E9171F500897FA1 /* GoogleAppUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleAppUtilities.framework; path = Frameworks/GoogleAppUtilities.framework; sourceTree = "<group>"; };
+		63055D0F1E9171F500897FA1 /* GoogleAuthUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleAuthUtilities.framework; path = Frameworks/GoogleAuthUtilities.framework; sourceTree = "<group>"; };
+		63055D101E9171F600897FA1 /* GoogleNetworkingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleNetworkingUtilities.framework; path = Frameworks/GoogleNetworkingUtilities.framework; sourceTree = "<group>"; };
+		63055D111E9171F600897FA1 /* GoogleSignIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSignIn.framework; path = Frameworks/GoogleSignIn.framework; sourceTree = "<group>"; };
+		63055D121E9171F600897FA1 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		63055D131E9171F600897FA1 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = Frameworks/GoogleUtilities.framework; sourceTree = "<group>"; };
+		6344AD741E9B092200541E7E /* ART.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ART.xcodeproj; path = "../node_modules/react-native/Libraries/ART/ART.xcodeproj"; sourceTree = "<group>"; };
+		63B913C61E9146860091F678 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
-		6D5CF79E83EC4A3E8285D567 /* RNGoogleSignin.xcodeproj */ = {isa = PBXFileReference; name = "RNGoogleSignin.xcodeproj"; path = "../node_modules/react-native-google-signin/ios/RNGoogleSignin.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
-		5B61B1677DB644188D60F99F /* libRNGoogleSignin.a */ = {isa = PBXFileReference; name = "libRNGoogleSignin.a"; path = "libRNGoogleSignin.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
-		297A6BA88FB44B44A5450847 /* libz.tbd */ = {isa = PBXFileReference; name = "libz.tbd"; path = "usr/lib/libz.tbd"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = sourcecode.text-based-dylib-definition; explicitFileType = undefined; includeInIndex = 0; };
-		26B61E5BCB6046EF9FE696BA /* SafariServices.framework */ = {isa = PBXFileReference; name = "SafariServices.framework"; path = "System/Library/Frameworks/SafariServices.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
-		128E7C14D36D42C3851F77E3 /* SystemConfiguration.framework */ = {isa = PBXFileReference; name = "SystemConfiguration.framework"; path = "System/Library/Frameworks/SystemConfiguration.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
-		C48768AF2D6E451898C21FF6 /* AddressBook.framework */ = {isa = PBXFileReference; name = "AddressBook.framework"; path = "System/Library/Frameworks/AddressBook.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		86AB9760366B4746B01696DD /* libRNGoogleSignin.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNGoogleSignin.a; sourceTree = "<group>"; };
+		8C72C9E470F04BD4B7EDDFF3 /* SafariServices.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		98096412E65541B29DF35E54 /* Pods-LCCWiFiApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LCCWiFiApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LCCWiFiApp/Pods-LCCWiFiApp.debug.xcconfig"; sourceTree = "<group>"; };
+		9CF75913D8774E25889EFFF1 /* AddressBook.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		A9B8ED0EBE21A0E858A519B9 /* Pods-LCCWiFiApp-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LCCWiFiApp-tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LCCWiFiApp-tvOS/Pods-LCCWiFiApp-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		ADA55E35B26F4832BD74C43D /* libz.tbd */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		B3ECADFCD3AE97BF6F022401 /* Pods-LCCWiFiAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LCCWiFiAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LCCWiFiAppTests/Pods-LCCWiFiAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C190E5B4EED38BE3088E09D9 /* libPods-LCCWiFiAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LCCWiFiAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C492414979030D1CDC299E63 /* Pods-LCCWiFiApp-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LCCWiFiApp-tvOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LCCWiFiApp-tvOSTests/Pods-LCCWiFiApp-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		D566ECFB4AD2447FC773F382 /* Pods-LCCWiFiApp-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LCCWiFiApp-tvOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LCCWiFiApp-tvOSTests/Pods-LCCWiFiApp-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EAF35D94B1A54CDC2FCCA507 /* Pods-LCCWiFiApp-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LCCWiFiApp-tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-LCCWiFiApp-tvOS/Pods-LCCWiFiApp-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		F9D9116C8CFD2B4F2949309C /* libPods-LCCWiFiApp-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LCCWiFiApp-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -273,6 +333,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */,
+				9990502140DCEDBFD0A5C0A0 /* libPods-LCCWiFiAppTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +341,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6344AD7A1E9B095200541E7E /* libART.a in Frameworks */,
+				63055D141E9171F600897FA1 /* GoogleAppUtilities.framework in Frameworks */,
+				63055D151E9171F600897FA1 /* GoogleAuthUtilities.framework in Frameworks */,
+				63055D161E9171F600897FA1 /* GoogleNetworkingUtilities.framework in Frameworks */,
+				63055D171E9171F600897FA1 /* GoogleSignIn.framework in Frameworks */,
+				63055D181E9171F600897FA1 /* GoogleSymbolUtilities.framework in Frameworks */,
+				63055D191E9171F600897FA1 /* GoogleUtilities.framework in Frameworks */,
 				146834051AC3E58100842450 /* libReact.a in Frameworks */,
 				5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */,
 				00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */,
@@ -291,11 +359,12 @@
 				832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */,
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
-				16D58E2A17B0499BAA9014F1 /* libRNGoogleSignin.a in Frameworks */,
-				3A5EC8D9B3D340F8AF4572E6 /* libz.tbd in Frameworks */,
-				E7DDC600F65A475F993F31A0 /* SafariServices.framework in Frameworks */,
-				A73B0A4C6B8744F882DFFA57 /* SystemConfiguration.framework in Frameworks */,
-				6E4A7EDEC6E0474E91711AB4 /* AddressBook.framework in Frameworks */,
+				874DA7F9DC044F2FB7773D5A /* libRNGoogleSignin.a in Frameworks */,
+				FA765211C71846159033FD66 /* libz.tbd in Frameworks */,
+				AC4D1031B73348C795DA3CF7 /* SafariServices.framework in Frameworks */,
+				6414D05DCCFB47ACA96CF17E /* SystemConfiguration.framework in Frameworks */,
+				D8E72F6833E4417F9D9BF10A /* AddressBook.framework in Frameworks */,
+				D39FA859D213FBA076FE998A /* libPods-LCCWiFiApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,6 +380,7 @@
 				2D02E4C61E0B4AEC006451C7 /* libRCTSettings-tvOS.a in Frameworks */,
 				2D02E4C71E0B4AEC006451C7 /* libRCTText-tvOS.a in Frameworks */,
 				2D02E4C81E0B4AEC006451C7 /* libRCTWebSocket-tvOS.a in Frameworks */,
+				69BF01B04DC9900DEE6FC831 /* libPods-LCCWiFiApp-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,6 +388,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65BA2FE245368945DC443D04 /* libPods-LCCWiFiApp-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,6 +475,7 @@
 		13B07FAE1A68108700A75B9A /* LCCWiFiApp */ = {
 			isa = PBXGroup;
 			children = (
+				63B913C61E9146860091F678 /* GoogleService-Info.plist */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -439,6 +511,22 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		6344AD751E9B092200541E7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6344AD791E9B092200541E7E /* libART.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63B913A81E91436A0091F678 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63B913C51E91436A0091F678 /* libRNGoogleSignin.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		78C398B11ACF4ADC00677621 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -451,6 +539,7 @@
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				6344AD741E9B092200541E7E /* ART.xcodeproj */,
 				5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */,
 				146833FF1AC3E56700842450 /* React.xcodeproj */,
 				00C302A71ABCB8CE00DB3ED1 /* RCTActionSheet.xcodeproj */,
@@ -462,7 +551,7 @@
 				832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */,
 				00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */,
 				139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */,
-				6D5CF79E83EC4A3E8285D567 /* RNGoogleSignin.xcodeproj */,
+				30D3D3DDA5C9429088C7BFCE /* RNGoogleSignin.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -483,7 +572,8 @@
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* LCCWiFiAppTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
-				1B29CA8B91D543F19F3D9D3B /* Frameworks */,
+				FDD3E38F57FE44ACA568183B /* Frameworks */,
+				BC95B2ED9E46FCD0006009CD /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -500,16 +590,50 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1B29CA8B91D543F19F3D9D3B /* Frameworks */ = {
+		BC95B2ED9E46FCD0006009CD /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				297A6BA88FB44B44A5450847 /* libz.tbd */,
-				26B61E5BCB6046EF9FE696BA /* SafariServices.framework */,
-				128E7C14D36D42C3851F77E3 /* SystemConfiguration.framework */,
-				C48768AF2D6E451898C21FF6 /* AddressBook.framework */,
+				98096412E65541B29DF35E54 /* Pods-LCCWiFiApp.debug.xcconfig */,
+				07227E92E76F8ACE63CB0B67 /* Pods-LCCWiFiApp.release.xcconfig */,
+				A9B8ED0EBE21A0E858A519B9 /* Pods-LCCWiFiApp-tvOS.debug.xcconfig */,
+				EAF35D94B1A54CDC2FCCA507 /* Pods-LCCWiFiApp-tvOS.release.xcconfig */,
+				D566ECFB4AD2447FC773F382 /* Pods-LCCWiFiApp-tvOSTests.debug.xcconfig */,
+				C492414979030D1CDC299E63 /* Pods-LCCWiFiApp-tvOSTests.release.xcconfig */,
+				B3ECADFCD3AE97BF6F022401 /* Pods-LCCWiFiAppTests.debug.xcconfig */,
+				172F4723CFCF8EA9F6CC4AE8 /* Pods-LCCWiFiAppTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FDD3E38F57FE44ACA568183B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63055D0E1E9171F500897FA1 /* GoogleAppUtilities.framework */,
+				63055D0F1E9171F500897FA1 /* GoogleAuthUtilities.framework */,
+				63055D101E9171F600897FA1 /* GoogleNetworkingUtilities.framework */,
+				63055D111E9171F600897FA1 /* GoogleSignIn.framework */,
+				63055D121E9171F600897FA1 /* GoogleSymbolUtilities.framework */,
+				63055D131E9171F600897FA1 /* GoogleUtilities.framework */,
+				63055D0C1E9171DD00897FA1 /* Frameworks */,
+				63055D091E916E2000897FA1 /* GoogleSignIn.framework */,
+				63055CFB1E916DFF00897FA1 /* GoogleAppUtilities.framework */,
+				63055CFC1E916DFF00897FA1 /* GoogleAuthUtilities.framework */,
+				63055CFD1E916DFF00897FA1 /* GoogleNetworkingUtilities.framework */,
+				63055CFE1E916DFF00897FA1 /* GoogleSignIn.bundle */,
+				63055CFF1E916DFF00897FA1 /* GoogleSignIn.framework */,
+				63055D001E916DFF00897FA1 /* GoogleSymbolUtilities.framework */,
+				63055D011E916DFF00897FA1 /* GoogleUtilities.framework */,
+				63055CDF1E916C6700897FA1 /* Pods */,
+				ADA55E35B26F4832BD74C43D /* libz.tbd */,
+				8C72C9E470F04BD4B7EDDFF3 /* SafariServices.framework */,
+				485CC9448D6C4141988A2932 /* SystemConfiguration.framework */,
+				9CF75913D8774E25889EFFF1 /* AddressBook.framework */,
+				349D101A69887BDEE67D1592 /* libPods-LCCWiFiApp.a */,
+				F9D9116C8CFD2B4F2949309C /* libPods-LCCWiFiApp-tvOS.a */,
+				0489DAB22619CE916A6532DC /* libPods-LCCWiFiApp-tvOSTests.a */,
+				C190E5B4EED38BE3088E09D9 /* libPods-LCCWiFiAppTests.a */,
 			);
 			name = Frameworks;
-			path = "";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -519,9 +643,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "LCCWiFiAppTests" */;
 			buildPhases = (
+				550B77E305878B79B621D7A4 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
+				95DAEF64CA3003F1DA6FE7D0 /* [CP] Embed Pods Frameworks */,
+				93ABFCD8BA726D622E789235 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -537,10 +664,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "LCCWiFiApp" */;
 			buildPhases = (
+				F6714DEED7E81B725B2BB1A1 /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				D16EFF00755D855664393DE0 /* [CP] Embed Pods Frameworks */,
+				8AA2A1704401C9767B295F42 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -555,10 +685,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "LCCWiFiApp-tvOS" */;
 			buildPhases = (
+				28D8EEA95BEF3FB4E38B1C6B /* [CP] Check Pods Manifest.lock */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
 				2D02E4791E0B4A5D006451C7 /* Resources */,
 				2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */,
+				56D37492D5F1E4D280B1B2A0 /* [CP] Embed Pods Frameworks */,
+				497700099FF66059FB88FDCA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -573,9 +706,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "LCCWiFiApp-tvOSTests" */;
 			buildPhases = (
+				A01CCD6443AFBAD304EC37B6 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
+				76F6B0949DD3DA33587692EC /* [CP] Embed Pods Frameworks */,
+				3A09EC0AA0B6A830AF9B8253 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -593,7 +729,7 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 610;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = Facebook;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
@@ -623,6 +759,10 @@
 			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
 			projectDirPath = "";
 			projectReferences = (
+				{
+					ProductGroup = 6344AD751E9B092200541E7E /* Products */;
+					ProjectRef = 6344AD741E9B092200541E7E /* ART.xcodeproj */;
+				},
 				{
 					ProductGroup = 00C302A81ABCB8CE00DB3ED1 /* Products */;
 					ProjectRef = 00C302A71ABCB8CE00DB3ED1 /* RCTActionSheet.xcodeproj */;
@@ -666,6 +806,10 @@
 				{
 					ProductGroup = 146834001AC3E56700842450 /* Products */;
 					ProjectRef = 146833FF1AC3E56700842450 /* React.xcodeproj */;
+				},
+				{
+					ProductGroup = 63B913A81E91436A0091F678 /* Products */;
+					ProjectRef = 30D3D3DDA5C9429088C7BFCE /* RNGoogleSignin.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -840,6 +984,20 @@
 			remoteRef = 5E9157341DD0AC6500FF2AA8 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		6344AD791E9B092200541E7E /* libART.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libART.a;
+			remoteRef = 6344AD781E9B092200541E7E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		63B913C51E91436A0091F678 /* libRNGoogleSignin.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNGoogleSignin.a;
+			remoteRef = 63B913C41E91436A0091F678 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		78C398B91ACF4ADC00677621 /* libRCTLinking.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -861,6 +1019,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63B913C81E9146860091F678 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -870,6 +1029,7 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				63B913C71E9146860091F678 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -878,6 +1038,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */,
+				63B913C91E9146860091F678 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -885,6 +1046,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63B913CA1E9146860091F678 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -905,6 +1067,21 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/packager/react-native-xcode.sh";
 		};
+		28D8EEA95BEF3FB4E38B1C6B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -918,6 +1095,171 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/packager/react-native-xcode.sh";
+		};
+		3A09EC0AA0B6A830AF9B8253 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LCCWiFiApp-tvOSTests/Pods-LCCWiFiApp-tvOSTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		497700099FF66059FB88FDCA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LCCWiFiApp-tvOS/Pods-LCCWiFiApp-tvOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		550B77E305878B79B621D7A4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		56D37492D5F1E4D280B1B2A0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LCCWiFiApp-tvOS/Pods-LCCWiFiApp-tvOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76F6B0949DD3DA33587692EC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LCCWiFiApp-tvOSTests/Pods-LCCWiFiApp-tvOSTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AA2A1704401C9767B295F42 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LCCWiFiApp/Pods-LCCWiFiApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93ABFCD8BA726D622E789235 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LCCWiFiAppTests/Pods-LCCWiFiAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95DAEF64CA3003F1DA6FE7D0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LCCWiFiAppTests/Pods-LCCWiFiAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A01CCD6443AFBAD304EC37B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D16EFF00755D855664393DE0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LCCWiFiApp/Pods-LCCWiFiApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6714DEED7E81B725B2BB1A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -986,102 +1328,123 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3ECADFCD3AE97BF6F022401 /* Pods-LCCWiFiAppTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-google-signin/ios/RNGoogleSignin/**",
+				);
 				INFOPLIST_FILE = LCCWiFiAppTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-lc++",
-				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LCCWiFiApp.app/LCCWiFiApp";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)\..\node_modules\react-native-google-signin\ios\RNGoogleSignin/**",
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LCCWiFiApp.app/LCCWiFiApp";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 172F4723CFCF8EA9F6CC4AE8 /* Pods-LCCWiFiAppTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-google-signin/ios/RNGoogleSignin/**",
+				);
 				INFOPLIST_FILE = LCCWiFiAppTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-lc++",
-				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LCCWiFiApp.app/LCCWiFiApp";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)\..\node_modules\react-native-google-signin\ios\RNGoogleSignin/**",
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LCCWiFiApp.app/LCCWiFiApp";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98096412E65541B29DF35E54 /* Pods-LCCWiFiApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/GoogleSignIn/Frameworks",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-google-signin/ios/RNGoogleSignin/**",
+				);
 				INFOPLIST_FILE = LCCWiFiApp/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks $(PROJECT_DIR)/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lccwifiapp;
 				PRODUCT_NAME = LCCWiFiApp;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)\..\node_modules\react-native-google-signin\ios\RNGoogleSignin/**",
-				);
 			};
 			name = Debug;
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07227E92E76F8ACE63CB0B67 /* Pods-LCCWiFiApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/GoogleSignIn/Frameworks",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-google-signin/ios/RNGoogleSignin/**",
+				);
 				INFOPLIST_FILE = LCCWiFiApp/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks $(PROJECT_DIR)/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lccwifiapp;
 				PRODUCT_NAME = LCCWiFiApp;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)\..\node_modules\react-native-google-signin\ios\RNGoogleSignin/**",
-				);
 			};
 			name = Release;
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9B8ED0EBE21A0E858A519B9 /* Pods-LCCWiFiApp-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -1092,8 +1455,16 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-google-signin/ios/RNGoogleSignin/**",
+				);
 				INFOPLIST_FILE = "LCCWiFiApp-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
@@ -1103,19 +1474,12 @@
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.2;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)\..\node_modules\react-native-google-signin\ios\RNGoogleSignin/**",
-				);
 			};
 			name = Debug;
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAF35D94B1A54CDC2FCCA507 /* Pods-LCCWiFiApp-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -1126,8 +1490,16 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-google-signin/ios/RNGoogleSignin/**",
+				);
 				INFOPLIST_FILE = "LCCWiFiApp-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
@@ -1137,19 +1509,12 @@
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.2;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)\..\node_modules\react-native-google-signin\ios\RNGoogleSignin/**",
-				);
 			};
 			name = Release;
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D566ECFB4AD2447FC773F382 /* Pods-LCCWiFiApp-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -1161,20 +1526,21 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "LCCWiFiApp-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.LCCWiFiApp-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LCCWiFiApp-tvOS.app/LCCWiFiApp-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-				);
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C492414979030D1CDC299E63 /* Pods-LCCWiFiApp-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -1186,15 +1552,15 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "LCCWiFiApp-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.LCCWiFiApp-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LCCWiFiApp-tvOS.app/LCCWiFiApp-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-				);
 			};
 			name = Release;
 		};
@@ -1211,15 +1577,19 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -1252,8 +1622,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -1261,6 +1633,7 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;

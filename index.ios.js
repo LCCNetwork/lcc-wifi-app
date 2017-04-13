@@ -1,40 +1,19 @@
 import React, { Component } from 'react'
 import {
-  AppRegistry,
-  StyleSheet,
-  Text,
-  View
+    AppRegistry,
+    StyleSheet,
+    Text,
+    View
 } from 'react-native'
 
-export default class LCCWiFiApp extends Component {
-  render () {
-    return (
-      <View style={styles.container}>
-        <Text style={styles.welcome}>
-          Wee Woo
-        </Text>
-      </View>
-    )
-  }
-}
+import App from './src/App.js'
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#F5FCFF'
-  },
-  welcome: {
-    fontSize: 20,
-    textAlign: 'center',
-    margin: 10
-  },
-  instructions: {
-    textAlign: 'center',
-    color: '#333333',
-    marginBottom: 5
-  }
-})
+export default class LCCWiFiApp extends Component {
+    render () {
+        return (
+            <App></App>
+        )
+    }
+}
 
 AppRegistry.registerComponent('LCCWiFiApp', () => LCCWiFiApp)

@@ -74,6 +74,7 @@ firebase.initializeApp(config)
 
 GoogleSignin.configure({
   webClientId: '1038104580431-bakjtdg9bapemb51kif2cdm4fgs4paaf.apps.googleusercontent.com',
+  iosClientId: '1038104580431-m4mlavare0gburlegl0tphn7oqlvhai0.apps.googleusercontent.com',
   forceConsentPrompt: true,
   accountName: '',
   hostedDomain: ''
