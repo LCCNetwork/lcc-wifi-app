@@ -125,59 +125,69 @@ export default class App extends Component {
       setTimeout(reject, 1000, 'request timed out')
     })
 
-    Promise.race([timeout,
-      fetch('http://10.240.20.154:8080/auth', {
-        method: 'POST',
-        headers: {
-          'Accept': 'application/json',
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({
-          email: this.state.user.email
-        })
-      })
-    ]).then((response) => response.json()).then((responseJson) => {
-      if (responseJson.auth) {
-        fetch('http://10.240.20.154:8080/user/' + this.state.user.uid, {
-          method: 'GET',
-          headers: {
-            'Accept': 'application/json'
-          }
-        }).then((response) => response.json()).then((responseJson) => {
+    this.state.user.getToken(true).then((token) => {
+      Promise.race([timeout,
+          fetch('http://10.240.20.154:8080/auth', {
+            method: 'POST',
+            headers: {
+              'Accept': 'application/json',
+              'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+              token: token
+            })
+          })
+      ]).then((response) => response.json()).then((responseJson) => {
+        if (responseJson.auth) {
+          fetch('http://10.240.20.154:8080/user/' + this.state.user.uid, {
+            method: 'GET',
+            headers: {
+              'Accept': 'application/json'
+            }
+          }).then((response) => response.json()).then((responseJson) => {
+            this.setState({
+              user: this.state.user,
+              page: 'main',
+              data: responseJson,
+              connected: this.state.connected
+            })
+          }).catch((err) => {
+            firebase.auth().signOut()
+
+            console.log(err)
+
+            Alert.alert('Not Connected', 'Please make sure you are connected to the LCC WiFi network.', [
+              {text: 'OK'}
+            ])
+          })
           this.setState({
             user: this.state.user,
-            page: 'main',
-            data: responseJson,
-            connected: this.state.connected
+            page: this.state.page,
+            data: this.state.data,
+            connected: true
           })
-        }).catch((err) => {
+        } else {
           firebase.auth().signOut()
 
-          console.log(err)
-
-          Alert.alert('Not Connected', 'Please make sure you are connected to the LCC WiFi network.', [
+          Alert.alert('Not Authorized', 'This account is not authorized to use the LCC WiFi network.', [
             {text: 'OK'}
           ])
-        })
-        this.setState({
-          user: this.state.user,
-          page: this.state.page,
-          data: this.state.data,
-          connected: true
-        })
-      } else {
+        }
+      }).catch((err) => {
         firebase.auth().signOut()
 
-        Alert.alert('Not Authorized', 'This account is not authorized to use the LCC WiFi network.', [
+        console.log(err)
+
+        Alert.alert('Not Connected', 'Please make sure you are connected to the LCC WiFi network.', [
           {text: 'OK'}
         ])
-      }
+      })
     }).catch((err) => {
       firebase.auth().signOut()
 
       console.log(err)
 
-      Alert.alert('Not Connected', 'Please make sure you are connected to the LCC WiFi network.', [
+      Alert.alert('Auth Error', 'Please make sure you are connected to the LCC WiFi network.', [
         {text: 'OK'}
       ])
     })
