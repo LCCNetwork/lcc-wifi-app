@@ -122,12 +122,12 @@ export default class App extends Component {
 
   reload () {
     let timeout = new Promise((resolve, reject) => {
-      setTimeout(reject, 1000, 'request timed out')
+      setTimeout(reject, 5000, 'request timed out')
     })
 
     this.state.user.getToken(true).then((token) => {
       Promise.race([timeout,
-          fetch('http://10.240.20.154:8080/auth', {
+          fetch('http://192.168.1.1:8080/auth', {
             method: 'POST',
             headers: {
               'Accept': 'application/json',
@@ -139,7 +139,7 @@ export default class App extends Component {
           })
       ]).then((response) => response.json()).then((responseJson) => {
         if (responseJson.auth) {
-          fetch('http://10.240.20.154:8080/user/' + this.state.user.uid, {
+          fetch('http://192.168.1.1:8080/user/' + this.state.user.uid, {
             method: 'GET',
             headers: {
               'Accept': 'application/json'
