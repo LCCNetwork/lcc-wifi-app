@@ -15,6 +15,22 @@
       },
       "oauth_client": [
         {
+          "client_id": "1038104580431-ad7lpcg4l73qjjese6v73a5cqc14nflc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lccwifiapp",
+            "certificate_hash": "1861387a13b7317c8ba35a322ffb523ba38321aa"
+          }
+        },
+        {
+          "client_id": "1038104580431-2g5plop8oebs834r1jr19o8q3c6edsdv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lccwifiapp",
+            "certificate_hash": "2a03c73ad3ad07e0563fb61d75ab2b7233a453af"
+          }
+        },
+        {
           "client_id": "1038104580431-d5oikmtjar9dj3rnhssjedimjte0o80p.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
@@ -42,6 +58,13 @@
             {
               "client_id": "1038104580431-bakjtdg9bapemb51kif2cdm4fgs4paaf.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "1038104580431-m4mlavare0gburlegl0tphn7oqlvhai0.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.lccwifiapp"
+              }
             }
           ]
         },
